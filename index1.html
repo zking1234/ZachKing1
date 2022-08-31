@@ -1,0 +1,254 @@
+<!--Welcome to "I am...a Project in Becoming..." Just follow along with comments like this one, and you'll design a really cool webtext that not only introduces you to the rest of the class, but also builds your coding literacy. Refer to the repository README for GitHub publishing help.-->
+
+<!--BTW. You can leave these faded code comments be, or delete them. Programmers and web designers use these comments to better explain what the code is doing for others who may enter the document later. They are but road signs, absent from the larger design-->
+
+<!--HTML pages start by calling <!DOCTYPE html> and designating a language.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Next comes the <head> information including the title and all of the important links that make the webtext work. When a browser access your url, it looks first at the index.html document <head> to learn about the names and locations of the other files and assets it will need to assemble your code into a visual display.-->
+
+  <!--Go ahead and fill in the blank in <title>I am...</title> (see just below). The <title> will appear in your document's browser tab-->
+<I am Zachary king</I am zachary king>
+<!--The stuff below the title does important work to tell browsers what this page should look like on different screens-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Next is a link to the cascading style sheet or CSS. Web designers use a cascading stylesheet CSS to add styling to a website. Designers do this by "calling" a <div class> in HTML and defining the class attributes on the style sheet. Doing so saves time and results in less code. On the style.css page you'll find attributes relating font, text size, image size, among other details.-->
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+<!--Now we will start working in the body of the document. The body holds all of the code and content that will appear as a visual for our audience.-->
+
+<!--Designers refer to this next section as a "Hero Image." The hero image is styled on the style.css page by calling a "class." To replace the hero image, simply place a .jpg file in the same file folder (directory) as this project and name it "hero.jpg." Alternatively, if you are working with a .png, you will need to open the style.css file using your text editor, find the "hero-image" class and change the file type from ".jpg" to ".png."" Browsers will only work with .jpg, .jpeg, or .png images. Since hero images need to stretch across the screen, typically you will want to select an image 1200px in width to allow quick load time yet avoid pixilation.-->
+
+
+
+<div class="hero-image">
+  <div class="hero-text">
+      <h1>I am Zachary King</h1>
+      <h2>A Project in Becoming</h2>
+  </div>
+</div>
+
+
+<!--We'll use this first section to discuss where you are right now. Where do you go to school and what courses are you taking/enjoying. What majors/minors/certificates are you pursuing? Has this changed? Why? Replace the content between <h3> and </h3> that says "Lorem ipsum" etc -->
+
+
+<!--Fuego programs sometimes use "in-line styling" to provide quick fixes to content design. In the above case, you could change "left" to "right" or "center" depending on your specific design needs. That said, left align is usually best practice for improving readability.-->
+<div class="textblock" style="text-align: left">
+  <h2>Field of Study</h2>
+  <h3>I am currently a freshman and studying exercise science. I am currently taking intro to psychology and viking history and I have found them very interesting. After I finish my undergrad I am planning to get my masters in exercise science. I also love helping people and think I would be a great asset to a sports team in the future.</h3>
+  </div>
+
+
+
+<!--Replace the images here. You can also control max-image width%. Keep your file names simple, don't use spaces, and be case sensitive). Be sure to add alt="text." Visually impaired individuals using screen readers rely on alt="text" to describe pictures to them. Describe your image as clearly and succinctly as possible.-->
+
+
+  <img src="physical.jpg" alt="physical" class="center-img" style="width:30%;"></img>
+
+
+
+<!--Let's go back to the start, to your home and family. Where do you come from? What's it like? Who is your family? I'll let you define these terms. Who are your people? How did these influences impact where you are now?-->
+
+<div class="textblock" style="text-align: left">
+  <h2>Home and Family</h2>
+    <h3>I come from Manchester NH, and I really enjoyed growing up there due to the vast difference in geography. Lorraine is my mom and Paul is my dad. My mom grew up Australia and my dad is from New York City. And I have a sister who goes to University of Alabama and she's studying to be a chemical engineer. My family and I will always sit down together and watch the show It's always sunny in Philadelphia. MY parents taught me how to be resilient and humble .</h3>
+  </div>
+
+<!--Quick fact: Did you know "Lorem ipsum," the fill text used in this web template, was hacked out of Cicero's "De finibus bonorum et malorum"? Developers made it non-sensical, so don't bother with Google Translate.-->
+
+
+
+<!--Show us. Find those beautiful, meaningful "family" photos and pictures of your place (only you can define family). If you are concerned about issues of privacy, you can always use stock images, or get creative. Add these photos to your project folder, making sure the files end in .jpg or .png and replace the names in the grid code below. You can add more images if you wish, or subtract...you might also need to move content around to achieve balance. See what happens – sometimes you have to be playful to find the purpose of things. Since these images are smaller, you will want to resize your images to less than 600px in width. This will improve load time and thus general accessibility. Don't forget to add alt="text"-->
+
+<!--A photo grid uses rows and column classes to create some divisions on the page that will scale with mobile devices. The style.css page provides other attributes that will adjust the image depending on the size of screens.-->
+
+<div class="row">
+  <div class="column">
+    <img src="pgrid1.jpg" alt="adams family">
+    <img src="pgrid2.jpg" alt="rock climbing">
+  </div>
+  <div class="column">
+    <img src="pgrid3.jpg" alt="biking">
+    <img src="pgrid4.jpg" alt="its always sunny in philadelhpia">
+  </div>
+  <div class="column">
+    <img src="pgrid5.jpg" alt="atheletes">
+    <img src="pgrid6.jpg" alt="swimming
+    ">
+  </div>
+</div>
+
+
+
+<!--So, what exactly are you into? Take some time to explain your passions.-->
+<div class="textblock" style="text-align: left">
+  <h2>Interests and Activities</h2>
+      <h3>I always have, and still am an avid outdoorsmen. by the time i completed high school i had done one half marathon and two half distance traithlons or 70.3 races.I still love to get outside and hike as well as rock climb, i enjoy sitting around and watching tv sometimes. I will usually watch movies but have a couple of shows i watch one of them being "Its always sunny in philadelhpia".</h3>
+  </div>
+
+
+<div>
+<img src="horizon.jpg" alt="describe the image HERE for accessibility purposes" class="center-img" style="max-width:50%;">
+</div>
+
+
+<!--Let's talk a little about the future. After school what kind of job or career would you like to pursue? What is your reasoning for going on this path? How might it connect to all of these prior elements-field of study, home and family, interests and activities? Why is this job or career important to you? Why is it important generally?-->
+
+<div class="textblock" style="text-align: left">
+   <h2>In the Future</h2>
+      <h3>After school I would really enjoy to work with professional atheletes and help them with their perfromance and recovery. I want to take this path because I am very interested in anatomy and it will give me a great sense of purpose by assisting high level athletes. I was an athlete in high school so I have always been surrounded by that enviroment. </h3>
+  </div>
+
+  <div>
+ <img src="skiing.jpg" alt="skiing" class="none" style="max-width:100%;">
+    </div>
+
+    <div id="logo">
+      <img src="fuego.jpg" alt="image of fire" style="width:25%;">
+        <p><b>generated by <a href="https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/">Pitt Fuego</a></b></p>
+        <p><em>Why make a spark when you can light a fire?</em></p>
+    </div>
+
+  </body>
+  </html>
+
+
+
+
+
+    <!--Looking to add components? You've come to the right place. Copy and paste Code Snippets and add to the body section. Adjust class properties on style.css.
+
+
+    ***Add Text Block***
+
+    (Format textblock using inline styling: text-align: left, center, justify, right; Format text: Italics: <em>italics</em>; Bold: <b>bold</b>; Link Website: <a href="link">LinkName</a>; Link Asset: <a href=filename.pdf>FileName</a>; Line Breaks: <br></br>; Tip for composing longer content: use <h3> and <p> instead of <h2> and <h3>)
+
+    <div class="textblock" style="text-align: left">
+        <h2>Header</h2>
+        <h3>We recommend using our mobile-ready text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+    </div>
+
+
+
+    ***Add Block Quote***
+
+    (Format text: Italics: <em>italics</em>; Bold: <b>bold</b>. For more stylings, find blockquote class on style.css)
+
+    <div class="blockquote" style="text-align: center">
+        <h2>Excepteur sint occaecat cupidatat non proident!</h2>
+    </div>
+
+
+
+    ***Add Bulleted Points to Textblock***
+
+    (Change <ul></ul> to <ol></ol> to change from unordered list to ordered list. For more stylings, find the ul/li classes on style.css)
+
+    <div class= "ul">
+            <li>first</li>
+            <li>second</li>
+            <li>third</li>
+    </div>
+
+    -or- (try a nested list)
+
+    <div class="ul">
+        <li>Coffee</li>
+        <li>Tea
+          <ul>
+            <li>Black tea</li>
+            <li>Green tea</li>
+          </ul>
+         </li>
+        <li>Milk</li>
+     </div>
+
+
+
+     ***Add a Button***
+
+     (Clearly label button for accessibility purposes. If this is not possible, include: aria-label=”label for accessibility purposes.” For more stylings, find button class on style.css)
+
+     <div class="buttonbox">
+        <a href="https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/" class="button" aria-label="">Button</a>
+     </div>
+
+
+
+
+    ***Embed YouTube Video***
+
+  <div class="video">
+     <div class="video-container">
+       <<iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>
+     </div>
+       <p>Add a caption.</p>
+    </div>
+
+
+
+    ***Add a Standard Image***
+
+    (Control image properties with inline width value.)
+
+    <img src="fuego.jpg" alt="describe the image HERE for accessibility purposes" style="width:30%;" class="center-img">
+    <p style="text-align: center"><em>Add a caption.</em></p>
+
+
+
+    ***Add Image Block with Padding and Caption*** (Control image properties with inline width value.)
+
+    <div class="imgageblock">
+        <img src="fuego.jpg" alt="describe the image HERE for accessibility purposes" style="width:100%;">
+         <p style="text-align: center"><em>Add a caption.</em></p>
+    </div>
+
+
+
+    ***Add a Photo Grid***
+
+    <div class="photogrid">
+    <div class="row">
+        <div class="column">
+            <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+    </div>
+        <p><em>Add a caption.</em></p>
+    </div>
+
+
+
+    ***Add a Parallax Window***
+
+    (To adjust window, find parallax class on style.css)
+
+    <div class="parallax"></div>
+
+
+
+    ***Add a Copyright Footer***
+
+    <div id="footer">
+      <p>Copyright Your Name, Year.</p>
+    </div>
+
+
+
+
+    ***Need something that's not here? Then you probably don't need it. But okay...go to w3 Schools***
+
+    Looking to use GitHub to publish this webtext to the internet? Follow the directions on the repository READ.ME.
+    Peace and love only, Stephen Quigley, University of Pittsburgh, 2021.-->
